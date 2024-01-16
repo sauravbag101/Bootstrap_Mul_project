@@ -1,0 +1,291 @@
+.row>{
+    margin-right: 0%;
+    margin-left: 0%;
+}
+.navbar_av {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  max-width: 1320px;
+  margin: auto;
+ 
+}
+.scroll_nav{
+  background-color: rgb(21, 21, 20);
+}
+.nav-item a{
+color: #ffffff;
+}
+
+
+/* hover effect */
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px 10px;
+    /* transition: .5s ease-out; */
+    /* animation: scale 3s infinite; */
+    /* transform: scale(20deg); */
+    backface-visibility:hidden;
+    /* overflow: hidden; */
+    
+  }
+  
+  .middle1 {
+    transition: .5s ease;
+    opacity: 1%;
+    position: absolute;
+    font-size: 20px;
+    color: aliceblue;
+    top: 150% !important;
+    left: 20% !important; 
+    
+    
+  }
+  figure{
+    overflow: hidden;
+  }
+  .image:hover{
+    /* opacity: 0.3; */
+    filter: brightness(.2);
+    transform: scale(1.2);
+      transition: .5s ease-in-out;
+  }
+  .card1:hover .middle1{
+    opacity: 1;
+    /* transform: scale(1.3); */
+  }
+
+  /* 2 card */
+  .middle2 {
+    transition: .5s ease;
+    opacity: 0%;
+    position: absolute; 
+    font-size: 20px;
+    color: aliceblue;
+    top:150% !important;
+    left: 48% !important;  
+          
+  }
+  .card2:hover .image {      
+    filter: brightness(.2);
+    transform: scale(1.2);
+    transition: .5s ease-in-out;
+    
+  }
+  .card2:hover .middle2{
+    opacity: 1;
+  }
+  /* 3 card */
+  .middle3 {
+   
+    transition: .5s ease;
+    opacity: 0%;
+    position: absolute; 
+    font-size: 20px;
+    color: aliceblue;
+    top: 150% !important;
+    left: 77% !important;       
+  }
+  .card3:hover .image {      
+    filter: brightness(.2);
+    transform: scale(1.2);
+      transition: .5s ease-in-out;
+    
+  }
+  .card3:hover .middle3{
+    opacity: 1;
+    
+  }
+ /* 4 card */
+ .middle4 {
+    transition: .5s ease;
+    opacity: 0%;
+    position: absolute; 
+    font-size: 20px;
+    color: aliceblue;
+    top: 220% !important;
+    left: 20% !important; 
+        
+  }
+  .card4:hover .image {      
+    filter:contrast(.1);
+    transform: scale(1.2);
+      transition: .5s ease-in-out;
+    
+  }
+  .card4:hover .middle4{
+    opacity: 1;
+  }
+  /* 5 card */
+  .middle5 {
+    transition: .5s ease;
+    opacity: 0%;
+    position: absolute;
+    font-size: 20px;
+    color: aliceblue; 
+    top: 220% !important;
+    left: 48% !important; 
+        
+  }
+  .card5:hover .image {      
+    filter:contrast(.1);
+    transform: scale(1.2);
+      transition: .5s ease-in-out;
+    
+  }
+  .card5:hover .middle5{
+    opacity: 1;
+  }
+  /* 6 card/ */
+  .middle6 {
+    transition: .5s ease;
+    opacity: 0%;
+    position: absolute;
+    font-size: 20px;
+    color: aliceblue; 
+    top: 220% !important;
+    left: 77% !important; 
+        
+  }
+  .card6:hover .image {      
+    filter:contrast(.1);
+    transform: scale(1.2);
+      transition: .5s ease-in-out;
+    
+  }
+  .card6:hover .middle6{
+    opacity: 1;
+  }
+  /* end */
+
+  .project_1{
+    min-width: 15px;
+  }
+
+/* end */
+
+
+/* media query */
+@media only screen and (min-width:769px) and (max-width: 992px) {
+  /* For mobile phones: */
+  .middle1 {
+    top: 150% !important;
+    left: 21% !important;
+    color: rgb(255, 255, 255);
+  }
+  .middle2 {
+    top: 150% !important;
+    left: 68% !important;
+    color: rgb(255, 255, 255);
+  }
+  .middle3 {
+    top: 210% !important;
+    left: 21% !important;
+    color: rgb(255, 255, 255);
+  }
+  .middle4 {
+    top: 210% !important;
+    left: 68% !important;
+    color: rgb(255, 255, 255);
+  }
+  .middle5 {
+    top: 270% !important;
+    left: 21% !important;
+    color: rgb(255, 255, 255);
+  }
+  .middle6 {
+    top: 270% !important;
+    left: 68% !important;
+    color: rgb(255, 255, 255);
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .middle1 {
+    top: 170% !important;
+    left: 45% !important;
+    color: rgb(255, 255, 255);
+  }
+  .middle2 {
+    top: 255% !important;
+    left: 45% !important;
+    color: rgb(255, 255, 255);
+  }
+  .middle3 {
+    top: 335% !important;
+    left: 45% !important;
+    color: rgb(255, 255, 255);
+  }
+  .middle4 {
+    top: 420% !important;
+    left: 45% !important;
+    color: rgb(255, 255, 255);
+  }
+  .middle5 {
+    top: 505% !important;
+    left: 45% !important;
+    color: rgb(255, 255, 255);
+  }
+  .middle6 {
+    top: 585% !important;
+    left: 45% !important;
+    color: rgb(255, 255, 255);
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .middle1 {
+    top: 136% !important;
+    left: 12% !important;
+    color: rgb(255, 255, 255);
+    font-size: small;
+  }
+  .fa-plus{
+    font-size: 15px;
+  }
+  .middle2 {
+    top: 136% !important;
+    left: 45% !important;
+    color: rgb(255, 255, 255);
+    font-size: small;
+
+  }
+  .middle3 {
+    top: 136% !important;
+    left: 75% !important;
+    color: rgb(255, 255, 255);
+    font-size: small;
+
+  }
+  .middle4 {
+    top: 159% !important;
+    left: 12% !important;
+    color: rgb(255, 255, 255);
+    font-size: small;
+
+  }
+  .middle5 {
+    top: 159% !important;
+    left: 45% !important;
+    color: rgb(255, 255, 255);
+    font-size: small;
+
+  }
+  .middle6 {
+    top: 159% !important;
+    left: 75% !important;
+    color: rgb(255, 255, 255);
+    font-size: small;
+
+  }
+}
+.hidden-spacer {
+  height: 60px
+} 
