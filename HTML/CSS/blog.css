@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.img-fluid {
+    max-width: 102.5%;
+    height: auto;
+  }
+  .navbar_av {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    max-width: 1320px;
+    margin: auto;
+  }
+  .scroll_nav{
+    background-color: rgb(21, 21, 20);
+  }
+ .nav-item a{
+  color: #ffffff;
+ }
